@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LINNOIR</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: monospace;
+      background: #0f0f0f;
+      color: #eee;
+    }
+    header, section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero {
+      background-image: url('/images/products/hero.png');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      opacity: 0.7;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .product {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 8px;
+      width: 250px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>LINNOIR</h1>
+    <p>born in silence</p>
+  </header>
+  <section>
+    <h2>Collection</h2>
+    <div class="products">
+      <div class="product">
+        <img src="/images/products/shelter01.png" alt="SHELTER_01" />
+        <p>SHELTER_01 - Oversized Coat</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
